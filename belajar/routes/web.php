@@ -20,3 +20,5 @@ Route::get('/', function () {
 // });
 
 Route::get('/profile/{data}','BelajarController@HanyaTest');
+Route::get('form','BelajarController@form'); //memanggil view form
+Route::post('profile','BelajarController@getProfile'); //mengirim data ke controller
