@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::get('/profile/{data}', function($data) {
+//     return view('profile',compact('data'));
+// });
+
+Route::get('/profile/{data}','BelajarController@HanyaTest');
