@@ -1,0 +1,15 @@
+cek : cd c:\xampp\htdocs\tutorial-laravel\belajar
+
+fungsi ke artisan di laravel :
+php artisan help //informasi bantuan
+php artisan tinker  //untuk mengakses shell di laravel
+php artisan –v //untuk cek versi laravel yang digunakan
+php artisan make:model nama_model//membuat model tabel di laravel
+php artisan make:controller nama_controller//membuat controller di laravel
+php artisan serve //untuk menjalankan laravel
+php artisan migrate //untuk migrate database
+php artisan make:auth //untuk membuat otentifikasi
+php artisan make:migration nama_migrasi //untuk membuat migrasi
+
+contoh membuat controler ke artisan :
+php artisan make:controller BelajarController // enter
